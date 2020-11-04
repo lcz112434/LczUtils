@@ -1,0 +1,20 @@
+Aes 可以直接转16进制进行加密以及解密 
+MD5Utils/MD5 是加密文件 以及字符串
+
+RSAUtil使用步骤:
+String str = "lcz";
+        //初始化
+        RSAUtil.init();
+
+        //两种方式
+        //1.私钥加密公钥解密
+        String s = RSAUtil.privateAdd(str);//私钥加密
+        Log.d("lcze", "Text: " +  s);
+        String publicopen = RSAUtil.publicopen();//公钥解密
+        Log.d("lcze", "Text: " + publicopen);
+
+        //2.公钥加密私钥解密
+        String s1 = RSAUtil.publicAdd(str);//公钥加密
+        Log.d("lcze", "s1: "+s1);
+        String privateopen = RSAUtil.privateopen();//私钥解密
+         Log.d("lcze", "privateopen: "+privateopen);

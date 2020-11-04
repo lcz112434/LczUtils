@@ -1,0 +1,5 @@
+BaseActivity中设置:
+//屏蔽系统设置的字体大小
+        adjustFontScale( getResources().getConfiguration());
+        //屏蔽系统设置的显示大小
+        DisplayUtil.setDefaultDisplay(this);
