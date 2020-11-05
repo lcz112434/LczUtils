@@ -16,7 +16,7 @@ Step 2 使用依赖
 
 ```
 dependencies {
-	        implementation 'com.github.lcz112434:LczUtils:v1.1'
+	        implementation 'com.github.lcz112434:LczUtils:v1.0'
 	}
 ```
 如果觉得使用还可以，可以给个star！感谢😊~
